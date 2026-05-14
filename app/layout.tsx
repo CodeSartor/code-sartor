@@ -3,8 +3,12 @@ import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: "Code Sartor — AI • Apps • Automation",
-  description:
-    "Premium software systems, AI workflows, automation, dashboards, and business applications.",
+  description: "...",
+  openGraph: {
+    title: "Code Sartor",
+    description: "Premium software systems and automation.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
