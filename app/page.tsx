@@ -64,7 +64,7 @@ const projects = [
     type: "quote",
     tag: "Business App",
     title: "Quote & Invoice Builder",
-    text: "A premium app concept for generating professional quotes, invoices, PDFs, customer records, itemized services, discounts, and branded documents.",
+    text: "A premium quoting system for generating professional quotes, invoices, PDFs, customer records, itemized services, discounts, and branded documents.",
     stats: ["PDF Output", "Local Storage", "Fast Admin"],
 
     problem:
@@ -87,7 +87,7 @@ const projects = [
     type: "factory",
     tag: "Factory System",
     title: "Production Command Center",
-    text: "A live operations dashboard concept for tracking workers, production counts, targets, order progress, and bottlenecks in one control-room view.",
+    text: "A live operations dashboard for tracking workers, production counts, targets, order progress, and bottlenecks in one control-room view.",
     stats: ["Live KPIs", "Worker Output", "Process Tracking"],
 
     problem:
@@ -110,7 +110,7 @@ const projects = [
     type: "ai",
     tag: "AI Automation",
     title: "Smart Workflow Engine",
-    text: "A system concept that connects data, automates repeated admin work, triggers notifications, and gives businesses AI-powered recommendations.",
+    text: "An intelligent workflow system that connects data, automates repeated admin work, triggers notifications, and gives businesses AI-powered recommendations.",
     stats: ["AI Layer", "APIs", "Automations"],
 
     problem:
@@ -449,7 +449,7 @@ function FactoryDashboardDemo() {
       <div className="mb-4 flex items-center justify-between">
         <div>
           <div className="text-xs uppercase tracking-[0.22em] text-lime-300">
-            Metal Factory Demo
+            Production System
           </div>
           <div className="mt-1 text-lg font-semibold text-white">
             Worker Optimization System
@@ -689,7 +689,7 @@ function AIWorkflowDemo() {
       <div className="mb-4 flex items-center justify-between">
         <div>
           <div className="text-xs uppercase tracking-[0.22em] text-lime-300">
-            AI Automation Demo
+            AI Automation System
           </div>
           <div className="mt-1 text-lg font-semibold text-white">
             Workflow Intelligence
@@ -1205,7 +1205,7 @@ export default function CodeSartorLandingPage() {
       <section className="scroll-mt-32 relative z-10 mx-auto grid min-h-screen max-w-7xl items-center gap-12 px-6 pb-20 pt-32 lg:grid-cols-[1.02fr_0.98fr]">
         <motion.div initial={{ opacity: 0, y: 28 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-lime-400/20 bg-lime-400/10 px-4 py-2 text-xs font-medium uppercase tracking-[0.25em] text-lime-200">
-            <Rocket className="h-4 w-4" /> Digital portfolio of what we can build
+            <Rocket className="h-4 w-4" /> Premium software systems for modern businesses
           </div>
           <h1 className="max-w-4xl text-5xl font-semibold leading-[0.96] tracking-tight md:text-7xl lg:text-8xl">
             We build software that makes businesses look unstoppable.
@@ -1368,7 +1368,7 @@ export default function CodeSartorLandingPage() {
       onClick={() => setDemoProject(project)}
       className="flex-1 rounded-xl bg-lime-300 px-4 py-3 text-sm font-semibold text-black transition hover:bg-white"
     >
-      View Demo
+      View System
     </button>
 
     <button
@@ -1387,8 +1387,8 @@ export default function CodeSartorLandingPage() {
       <section id="services" className=" scroll-mt-32 relative z-10 mx-auto max-w-7xl px-6 py-24">
         <SectionTitle
           eyebrow="Capabilities"
-          title="What Code Sartor can create for clients."
-          text="This section should make clients feel like almost any business problem can become a clean, modern digital system."
+          title="Built to streamline operations and scale businesses."
+          text="Code Sartor creates intelligent digital systems that combine modern design, automation, and powerful functionality to help businesses operate smarter and grow faster."
         />
         <div className="mt-14 grid gap-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
           {services.map((service, index) => (
@@ -1625,8 +1625,8 @@ export default function CodeSartorLandingPage() {
       <section id="process" className="scroll-mt-32 relative z-10 mx-auto max-w-7xl px-6 py-24">
         <SectionTitle
           eyebrow="Process"
-          title="How ideas become polished digital systems."
-          text="This gives clients confidence that Code Sartor does not just code randomly — we structure the build properly from idea to launch."
+          title="From idea to launch, every system is built with structure."
+          text="We guide each project through discovery, planning, development, testing, and launch so the final product is clear, reliable, and ready for real business use."
         />
         <div className="mt-16 grid gap-5 lg:grid-cols-4">
         {process.map((item, index) => (
