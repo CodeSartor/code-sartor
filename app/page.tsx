@@ -1269,8 +1269,8 @@ export default function CodeSartorLandingPage() {
       <section id="portfolio" className="scroll-mt-32 relative z-10 mx-auto max-w-7xl px-6 py-24">
         <SectionTitle
           eyebrow="Portfolio showcase"
-          title="A website that proves capability before the first meeting."
-          text="Instead of only listing services, Code Sartor should show polished system concepts, app interfaces, dashboards, and real-world business tools."
+          title="Modern systems built for modern businesses."
+          text="Code Sartor creates premium digital experiences, intelligent workflows, and scalable software systems that help businesses operate faster, smarter, and more efficiently."
         />
         <div className="mt-14 grid gap-6 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
           {projects.map((project, index) => (
