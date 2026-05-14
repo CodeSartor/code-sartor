@@ -1,8 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Code Sartor",
-  description: "Apps, AI, automation and modern business systems.",
+  title: "Code Sartor — AI • Apps • Automation",
+  description:
+    "Premium software systems, AI workflows, automation, dashboards, and business applications.",
 };
 
 export default function RootLayout({
