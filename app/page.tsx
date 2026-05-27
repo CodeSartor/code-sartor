@@ -1208,7 +1208,7 @@ export default function CodeSartorLandingPage() {
             <Rocket className="h-4 w-4" /> Premium software systems for modern businesses
           </div>
           <h1 className="max-w-4xl text-5xl font-semibold leading-[0.96] tracking-tight md:text-7xl lg:text-8xl">
-            We build software that makes businesses look unstoppable.
+            Custom Software Development, AI Automation & Business Apps for Modern Companies.
           </h1>
           <p className="mt-7 max-w-2xl text-lg leading-8 text-zinc-400 md:text-xl">
             Code Sartor designs premium websites, business apps, AI tools, dashboards, and automation systems that turn complex workflows into clean digital experiences.
